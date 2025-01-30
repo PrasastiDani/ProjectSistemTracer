@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->unsignedBigInteger('alumni_id')->nullable()->after('name');
 
-            $table->foreign('alumni_id')->references('id')->on('alumnis');
+            $table->foreign('alumni_id')->references('id')->on('alumni');
         });
     }
 
