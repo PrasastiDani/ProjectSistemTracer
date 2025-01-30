@@ -14,7 +14,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "",
+        "APP_URL": "https://vercel.com/prasastidanis-projects/project-sistem-tracer",
         "APP_KEY": "base64:+ZyH/uXJf82I4kqrFyqWecl3S19Pa6xEO/vLotqydMo=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
