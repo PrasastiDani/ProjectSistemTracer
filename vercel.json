@@ -26,11 +26,11 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "yb-de.h.filess.io",
-        "DB_PORT": "3306",
-        "DB_DATABASE": "dbsman4banjarbaru_cellwiseof",
-        "DB_USERNAME": "dbsman4banjarbaru_cellwiseof",
-        "DB_PASSWORD": "f19b30d7a11a26094ee83b1feadbcc84818a6d24"
+        "DB_HOST": "jmiec.h.filess.io",
+        "DB_PORT": "3307",
+        "DB_DATABASE": "sayang_stemswise",
+        "DB_USERNAME": "sayang_stemswise",
+        "DB_PASSWORD": "b99986df77046a8fb56fb7a8d17e859ff1fc1b94"
     },
     "outputDirectory": "public"
 }
