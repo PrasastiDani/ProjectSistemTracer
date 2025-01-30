@@ -1,16 +1,16 @@
 {
     "version": 2,
-    "framework": null,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.6.0" }
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.1"
+        }
     },
     "routes": [
-        { "src": "/build/(.*)", "dest": "/public/build/" },
-        { "src": "/(.*)", "dest": "/api/index.php" }
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
     ],
-    "public": true,
-    "buildCommand": "vite build",
-    "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
@@ -31,5 +31,6 @@
         "DB_DATABASE": "dbsman4banjarbaru_cellwiseof",
         "DB_USERNAME": "dbsman4banjarbaru_cellwiseof",
         "DB_PASSWORD": "f19b30d7a11a26094ee83b1feadbcc84818a6d24"
-    }
+    },
+    "outputDirectory": "public"
 }
